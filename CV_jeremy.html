@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profil de Jérémy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbarcv.css">
+    <link rel="stylesheet" href="css/nullifer.css">
+    <!-- <link rel="stylesheet" href="css/footercv.css"> -->
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/simple.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- <div class="menu_burger"><img src="IMAGES/menu_burger.png"></div> -->
+            <ul>
+                <li id="a_propos" class="bouton cta_acc" title="Accueil"><a href="index.html"><div class="ecriture">Accueil</div></a></li>
+                <li id="Cv" class="bouton cta_pres" title="Présentation"><a href="presentation.html"><div class="ecriture" >Présentation</div></a></li>
+                <li id="Connexion" class="bouton cta_connexion" title="Connexion"><a href="#"><div class="ecriture">Connexion</div></li></a>
+            </ul>
+        </nav>
+    </header>
+    <main class="jeremy">
+        <div id="presentation">
+            <div class="global_carte">
+             <section class="div_cv cv_jeremy">
+                <h1>Profil de Jérémy Massé</h1>
+                <div class="trait_mid"></div>
+                <div class="rond_photo"><img src="IMAGES/photo_cv.jpg" alt="photo de jérémy"></div>
+            </section>
+            </div>
+            <div id="page_ul" class="P_simple">
+                <ul id="global_onglets">
+                    <li class="onglet pres_simple">
+                        <a>présentation simple</a>
+                    </li>
+                    <li class="onglet pres_cv">
+                        <a>CV</a>
+                    </li>
+                    <li class="onglet rea_proj">
+                        <a>Réalisation/Projets</a>
+                    </li>
+                    <li class="onglet contact">
+                        <a >Contact</a>
+                    </li>
+                    <li class="onglet l_param">
+                        <a><img id="logo_para" src="IMAGES/parametre.png"></img></a>
+                    </li>         
+                </ul>
+                <div id="page">
+                    <section id="sect_simple">
+                        <p>Je suis Jérémy Massé.</p>
+                        <p>née le 23 mai 2000.</p>
+                        <p>Actuellement en première année d'étude à Ynov Paris Campus.</p>
+                        <p>Quelques compétences:</p>
+                        <ol>
+                            <li>
+                                HTML & CSS
+                            </li>
+                            <li>
+                                javascript
+                            </li>
+                            <li>
+                                SQL
+                            </li>
+                            <li>
+                                PHP
+                            </li>
+                            
+                        </ol>
+
+                    </section>
+                    <section id="sect_contact">
+                        <form method="POST" action="contact.php">
+                            <!-- <div class="div_contact">
+                                <label for="emails_desti">Choisissez l'email de la personne à contacter:</label>
+                                <select class="form-control" id="emails_desti">
+                                    <option>jeremy.masse@ynov.com</option>
+                                    <option>julien.@ynov.com</option>
+                                    <option>loic.pierret@ynov.com</option>
+                                </select>
+                            </div> -->
+                            <div class="div_contact">
+                                <label for="email_expedi">Votre e-mail:</label>
+                                <input class="form-control" type="text" name="email_expedi" id="email_expedi">
+                            </div>
+                            <div class="div_contact">
+                                <label for="nom_expe">Votre nom:</label>
+                                <input class="form-control" type="text" name="nom" id="nom_expe">
+                                <label for="prenom_expe">Votre prénom:</label>
+                                <input class="form-control" type="text" name="prenom" id="prenom_expe">
+                            </div>
+                            <div class="div_contact message">
+                                <label for="objet_email">Objet du message:</label>
+                                <input type="text" class="form-control" name="objet_email" />
+                                <label for="message_email">Votre message:</label>
+                                <textarea cols="70" rows="5" name="message"></textarea>
+                            </div>
+                            <button  class="div_contact cta_envoyer" type="button" name="envoyer">envoyer</button>
+                        </form>
+                    </section>
+                </div> 
+            </div>        
+        </div> 
+    </main>
+<!--     
+    <footer>
+        <p>Copyright ©</p>
+        <a class="logo_footer" href="https://www.facebook.com/jeremy.masse95" target="_blank"><img src="IMAGES\facebook.png" alt="linkedin"></a>
+        <a class="logo_footer" href="https://www.linkedin.com/in/jeremy-mass%C3%A9-23bb45181/" target="_blank"><img src="IMAGES\linkedin.png" alt="linkedin"></a>
+    </footer> -->
+    <script src="JS/cv.js"></script>
+</html>
